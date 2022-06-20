@@ -1,0 +1,33 @@
+p{
+    font-size: 70px;
+}
+.text134{
+    color: blueviolet;
+}
+a{
+    color: purple;
+}
+a:hover{
+    color:palevioletred
+}
+.mydiv{
+    background-color:skyblue;
+    color: azure;
+    border: 5px solid yellow;
+    width: 600px;
+    height: 600px;
+    font-size: 20px;
+    animation: bgchange 5s infinite;
+    animation: fontchange 5s infinite;
+    box-shadow:10px 10px 5px rgb(251, 75, 0);
+    padding:40px;
+    margin:40px;
+}
+@keyframes bgchange{
+    from {background-color: black;}
+    to {background-color: rgb(159, 25, 25);}
+}
+@keyframes fontchange{
+    from{font-size: 20px;}
+    to{font-size: 60px;}
+}
